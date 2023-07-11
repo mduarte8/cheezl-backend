@@ -1,20 +1,20 @@
 {
   "stats": {
     "choices": {
-      "gruyere-mozzarella-pepper_jack": {
-        "mozzarella": {
+      "cheddar-manchego-roquefort": {
+        "manchego": {
           "Kill": 1,
           "Date": 0,
           "Marry": 0,
           "Total": 1
         },
-        "gruyere": {
+        "cheddar": {
           "Kill": 0,
           "Date": 1,
           "Marry": 0,
           "Total": 1
         },
-        "pepper jack": {
+        "roquefort": {
           "Kill": 0,
           "Date": 0,
           "Marry": 1,
@@ -23,24 +23,30 @@
       }
     },
     "percentages": {
-      "gruyere-mozzarella-pepper_jack": {
-        "mozzarella": {
+      "cheddar-manchego-roquefort": {
+        "manchego": {
           "Kill": 100,
           "Date": 0,
           "Marry": 0
         },
-        "gruyere": {
+        "cheddar": {
           "Kill": 0,
           "Date": 100,
           "Marry": 0
         },
-        "pepper jack": {
+        "roquefort": {
           "Kill": 0,
           "Date": 0,
           "Marry": 100
         }
       }
-    },
-    "cheeses": {}
+    }
+  },
+  "cheeses": {
+    "2023-07-11": [
+      "humboldt fog",
+      "camembert",
+      "cottage"
+    ]
   }
 }
