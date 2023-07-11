@@ -3161,6 +3161,86 @@
           "Marry": 1,
           "Total": 1
         }
+      },
+      "parmesan-provolone-ricotta": {
+        "provolone": {
+          "Kill": 1,
+          "Fuck": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "ricotta": {
+          "Kill": 0,
+          "Fuck": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "parmesan": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "gruyere-humboldt_fog-swiss": {
+        "swiss": {
+          "Kill": 1,
+          "Fuck": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "gruyere": {
+          "Kill": 0,
+          "Fuck": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "american-cottage-pecorino": {
+        "cottage": {
+          "Kill": 1,
+          "Fuck": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "american": {
+          "Kill": 0,
+          "Fuck": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "pecorino": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "cheddar-mascarpone-provolone": {
+        "mascarpone": {
+          "Kill": 1,
+          "Fuck": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "provolone": {
+          "Kill": 0,
+          "Fuck": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "cheddar": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 1,
+          "Total": 1
+        }
       }
     },
     "percentages": {
@@ -5845,6 +5925,74 @@
           "Marry": 0
         },
         "provolone": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 100
+        }
+      },
+      "parmesan-provolone-ricotta": {
+        "provolone": {
+          "Kill": 100,
+          "Fuck": 0,
+          "Marry": 0
+        },
+        "ricotta": {
+          "Kill": 0,
+          "Fuck": 100,
+          "Marry": 0
+        },
+        "parmesan": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 100
+        }
+      },
+      "gruyere-humboldt_fog-swiss": {
+        "swiss": {
+          "Kill": 100,
+          "Fuck": 0,
+          "Marry": 0
+        },
+        "gruyere": {
+          "Kill": 0,
+          "Fuck": 100,
+          "Marry": 0
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 100
+        }
+      },
+      "american-cottage-pecorino": {
+        "cottage": {
+          "Kill": 100,
+          "Fuck": 0,
+          "Marry": 0
+        },
+        "american": {
+          "Kill": 0,
+          "Fuck": 100,
+          "Marry": 0
+        },
+        "pecorino": {
+          "Kill": 0,
+          "Fuck": 0,
+          "Marry": 100
+        }
+      },
+      "cheddar-mascarpone-provolone": {
+        "mascarpone": {
+          "Kill": 100,
+          "Fuck": 0,
+          "Marry": 0
+        },
+        "provolone": {
+          "Kill": 0,
+          "Fuck": 100,
+          "Marry": 0
+        },
+        "cheddar": {
           "Kill": 0,
           "Fuck": 0,
           "Marry": 100
