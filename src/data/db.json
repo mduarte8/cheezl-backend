@@ -1,68 +1,8 @@
 {
   "stats": {
     "choices": {
-      "cottage-feta-provolone": {
-        "feta": {
-          "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "provolone": {
-          "Kill": 0,
-          "Date": 1,
-          "Marry": 0,
-          "Total": 1
-        },
-        "cottage": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 1,
-          "Total": 1
-        }
-      },
-      "brie-parmesan-roquefort": {
-        "brie": {
-          "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "roquefort": {
-          "Kill": 0,
-          "Date": 1,
-          "Marry": 0,
-          "Total": 1
-        },
-        "parmesan": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 1,
-          "Total": 1
-        }
-      },
-      "american-blue-camembert": {
-        "camembert": {
-          "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "american": {
-          "Kill": 0,
-          "Date": 1,
-          "Marry": 0,
-          "Total": 1
-        },
-        "blue": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 1,
-          "Total": 1
-        }
-      },
-      "feta-gruyere-parmesan": {
-        "feta": {
+      "gruyere-mozzarella-pepper_jack": {
+        "mozzarella": {
           "Kill": 1,
           "Date": 0,
           "Marry": 0,
@@ -74,47 +14,7 @@
           "Marry": 0,
           "Total": 1
         },
-        "parmesan": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 1,
-          "Total": 1
-        }
-      },
-      "american-feta-gruyere": {
-        "feta": {
-          "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "american": {
-          "Kill": 0,
-          "Date": 1,
-          "Marry": 0,
-          "Total": 1
-        },
-        "gruyere": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 1,
-          "Total": 1
-        }
-      },
-      "brie-cheddar-mascarpone": {
-        "mascarpone": {
-          "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "cheddar": {
-          "Kill": 0,
-          "Date": 1,
-          "Marry": 0,
-          "Total": 1
-        },
-        "brie": {
+        "pepper jack": {
           "Kill": 0,
           "Date": 0,
           "Marry": 1,
@@ -123,59 +23,8 @@
       }
     },
     "percentages": {
-      "cottage-feta-provolone": {
-        "feta": {
-          "Kill": 100,
-          "Date": 0,
-          "Marry": 0
-        },
-        "provolone": {
-          "Kill": 0,
-          "Date": 100,
-          "Marry": 0
-        },
-        "cottage": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 100
-        }
-      },
-      "brie-parmesan-roquefort": {
-        "brie": {
-          "Kill": 100,
-          "Date": 0,
-          "Marry": 0
-        },
-        "roquefort": {
-          "Kill": 0,
-          "Date": 100,
-          "Marry": 0
-        },
-        "parmesan": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 100
-        }
-      },
-      "american-blue-camembert": {
-        "camembert": {
-          "Kill": 100,
-          "Date": 0,
-          "Marry": 0
-        },
-        "american": {
-          "Kill": 0,
-          "Date": 100,
-          "Marry": 0
-        },
-        "blue": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 100
-        }
-      },
-      "feta-gruyere-parmesan": {
-        "feta": {
+      "gruyere-mozzarella-pepper_jack": {
+        "mozzarella": {
           "Kill": 100,
           "Date": 0,
           "Marry": 0
@@ -185,46 +34,13 @@
           "Date": 100,
           "Marry": 0
         },
-        "parmesan": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 100
-        }
-      },
-      "american-feta-gruyere": {
-        "feta": {
-          "Kill": 100,
-          "Date": 0,
-          "Marry": 0
-        },
-        "american": {
-          "Kill": 0,
-          "Date": 100,
-          "Marry": 0
-        },
-        "gruyere": {
-          "Kill": 0,
-          "Date": 0,
-          "Marry": 100
-        }
-      },
-      "brie-cheddar-mascarpone": {
-        "mascarpone": {
-          "Kill": 100,
-          "Date": 0,
-          "Marry": 0
-        },
-        "cheddar": {
-          "Kill": 0,
-          "Date": 100,
-          "Marry": 0
-        },
-        "brie": {
+        "pepper jack": {
           "Kill": 0,
           "Date": 0,
           "Marry": 100
         }
       }
-    }
+    },
+    "cheeses": {}
   }
 }

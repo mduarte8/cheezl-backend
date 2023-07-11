@@ -2,13 +2,14 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
+import db from "../data/dbSetup.js";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const file = join(__dirname, "../data/db.json");
+// const __dirname = dirname(fileURLToPath(import.meta.url));
+// const file = join(__dirname, "../data/db.json");
 
-const adapter = new JSONFile(file);
-const defaultData = { stats: { choices: {}, percentages: {} } };
-const db = new Low(adapter, defaultData);
+// const adapter = new JSONFile(file);
+// const defaultData = { stats: { choices: {}, percentages: {}, cheeses:{} } };
+// const db = new Low(adapter, defaultData);
 
 async function addStat(newEntry) {
   await db.read();
