@@ -16,15 +16,15 @@ async function generateText(prompt) {
         {
           role: "system",
           content:
-            "You are responding to users cheese preference choices in Kill Date (where Date takes the place of the original F...) Marry game",
+            "You are responding to users cheese preference choices in Kill Date Marry game (where Date is like a one night stand...)",
         },
         {
           role: "user",
-          content: `${prompt}. Write terse judgemental and/or funny review of selections, compare to other users percentages selected for that combo, less than 20 words.`,
+          content: `${prompt}. Write terse, judgemental, funny review of selections, compare to other users percentages selected for that combo, less than 35 words.`,
         },
       ],
       max_tokens: 50,
-      temperature: 1,
+      temperature: 1.4,
     });
     const generatedText = openAIResponse.data.choices[0].message;
     return generatedText;
