@@ -3,22 +3,163 @@
     "choices": {
       "cheddar-manchego-roquefort": {
         "manchego": {
+          "Kill": 2,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 2
+        },
+        "cheddar": {
+          "Kill": 0,
+          "Date": 2,
+          "Marry": 0,
+          "Total": 2
+        },
+        "roquefort": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 2,
+          "Total": 2
+        }
+      },
+      "": {},
+      "blue-brie-feta": {
+        "blue": {
           "Kill": 1,
           "Date": 0,
           "Marry": 0,
           "Total": 1
         },
-        "cheddar": {
+        "brie": {
           "Kill": 0,
           "Date": 1,
           "Marry": 0,
           "Total": 1
         },
-        "roquefort": {
+        "feta": {
           "Kill": 0,
           "Date": 0,
           "Marry": 1,
           "Total": 1
+        }
+      },
+      "feta-humboldt_fog-provolone": {
+        "humboldt fog": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "provolone": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "american-mozzarella-swiss": {
+        "swiss": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "american": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "mozzarella": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "feta-gouda-gruyere": {
+        "feta": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "gruyere": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "gouda": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "feta-manchego-roquefort": {
+        "roquefort": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "manchego": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "gouda-humboldt_fog-provolone": {
+        "provolone": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "gouda": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
+      },
+      "camembert-cottage-humboldt_fog": {
+        "cottage": {
+          "Kill": 2,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 3
+        },
+        "camembert": {
+          "Kill": 1,
+          "Date": 2,
+          "Marry": 0,
+          "Total": 3
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 2,
+          "Total": 3
         }
       }
     },
@@ -38,6 +179,126 @@
           "Kill": 0,
           "Date": 0,
           "Marry": 100
+        }
+      },
+      "": {},
+      "blue-brie-feta": {
+        "blue": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "brie": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "feta-humboldt_fog-provolone": {
+        "humboldt fog": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "provolone": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "american-mozzarella-swiss": {
+        "swiss": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "american": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "mozzarella": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "feta-gouda-gruyere": {
+        "feta": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "gruyere": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "gouda": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "feta-manchego-roquefort": {
+        "roquefort": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "manchego": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "gouda-humboldt_fog-provolone": {
+        "provolone": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "gouda": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
+      },
+      "camembert-cottage-humboldt_fog": {
+        "cottage": {
+          "Kill": 67,
+          "Date": 0,
+          "Marry": 33
+        },
+        "camembert": {
+          "Kill": 33,
+          "Date": 67,
+          "Marry": 0
+        },
+        "humboldt fog": {
+          "Kill": 0,
+          "Date": 33,
+          "Marry": 67
         }
       }
     }
