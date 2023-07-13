@@ -26,4 +26,46 @@ async function generateDailyCheeses(date) {
   return cheeseChoices;
 }
 
-export default { generateDailyCheeses };
+async function checkForUserPlayed(userId) {
+  console.log("in choices.service checking for userId", userId);
+  await db.read();
+  const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  console.log("today is", today);
+
+  if (!db.data["users"]) {
+    db.data.users = {};
+    await db.write();
+  }
+
+  if (
+    db.data.users &&
+    db.data.users[userId] &&
+    db.data.users[userId]["last-played"] === today
+  ) {
+    console.log("TRUE last-played is", db.data.users[userId]["last-played"]);
+    return { hasPlayed: true, choices: db.data.users[userId]["choices"] };
+  }
+
+  console.log("FALSE! last-played is not today or user not found.");
+  return { hasPlayed: false };
+}
+
+async function setUserHasPlayed(userId, choices) {
+  const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  console.log("in setUserHasPlayed SERVICE with", userId);
+  console.log("type of userId is", typeof userId);
+  console.log("choices", choices);
+
+  await db.read();
+  if (!db.data.users[userId]) {
+    db.data.users[userId] = {};
+  }
+  db.data.users[userId]["last-played"] = today;
+  db.data.users[userId]["choices"] = choices;
+  await db.write();
+  const obj = {};
+  obj[userId] = { "last-played": today, choices: choices };
+  return obj;
+}
+
+export default { generateDailyCheeses, checkForUserPlayed, setUserHasPlayed };
