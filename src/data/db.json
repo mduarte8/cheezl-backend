@@ -181,6 +181,26 @@
           "Marry": 36,
           "Total": 96
         }
+      },
+      "blue-pecorino-swiss": {
+        "swiss": {
+          "Kill": 31,
+          "Date": 2,
+          "Marry": 0,
+          "Total": 33
+        },
+        "blue": {
+          "Kill": 2,
+          "Date": 31,
+          "Marry": 0,
+          "Total": 33
+        },
+        "pecorino": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 33,
+          "Total": 33
+        }
       }
     },
     "percentages": {
@@ -337,6 +357,23 @@
           "Date": 42,
           "Marry": 38
         }
+      },
+      "blue-pecorino-swiss": {
+        "swiss": {
+          "Kill": 94,
+          "Date": 6,
+          "Marry": 0
+        },
+        "blue": {
+          "Kill": 6,
+          "Date": 94,
+          "Marry": 0
+        },
+        "pecorino": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
       }
     }
   },
@@ -350,6 +387,11 @@
       "cottage",
       "gouda",
       "manchego"
+    ],
+    "2023-07-14": [
+      "pecorino",
+      "swiss",
+      "blue"
     ]
   },
   "users": {
@@ -418,11 +460,35 @@
       }
     },
     "0d56f1fb-ca12-45b0-9983-7229944ff244": {
-      "last-played": "2023-07-13",
+      "last-played": "2023-07-14",
       "choices": {
-        "gouda": "Kill",
-        "cottage": "Date",
-        "manchego": "Marry"
+        "swiss": "Kill",
+        "blue": "Date",
+        "pecorino": "Marry"
+      }
+    },
+    "34e3c164-1086-40ad-94cb-abc5de397a44": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "swiss": "Kill",
+        "blue": "Date",
+        "pecorino": "Marry"
+      }
+    },
+    "a342bd08-e671-4e04-afd2-8b57aecd54f5": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "blue": "Kill",
+        "swiss": "Date",
+        "pecorino": "Marry"
+      }
+    },
+    "1cc9b5c8-93ed-4b05-b17d-162243b6bcd7": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "blue": "Kill",
+        "swiss": "Date",
+        "pecorino": "Marry"
       }
     }
   }

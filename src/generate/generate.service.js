@@ -23,7 +23,7 @@ async function generateText(prompt) {
           content: `${prompt}. Write terse, judgemental, funny review of selections, compare to other users percentages selected for that combo, less than 35 words.`,
         },
       ],
-      max_tokens: 50,
+      max_tokens: 100,
       temperature: 1.4,
     });
     const generatedText = openAIResponse.data.choices[0].message;
