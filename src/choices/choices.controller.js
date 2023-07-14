@@ -3,7 +3,7 @@ import service from "./choices.service.js";
 
 async function list(req, res) {
   const date = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
-  console.log("checking cheeses for", date);
+  //   console.log("checking cheeses for", date);
   const data = await service.generateDailyCheeses(date);
   res.status(200).json({
     data,
@@ -12,8 +12,8 @@ async function list(req, res) {
 
 function reqHasUserId(req, res, next) {
   const { userId } = req.body.data || req.query;
-  console.log("userId is", userId);
-  console.log("reqHasUserId is being called!!");
+  //   console.log("userId is", userId);
+  //   console.log("reqHasUserId is being called!!");
   if (!userId) {
     next({
       status: 400,
@@ -45,7 +45,7 @@ async function read(req, res) {
 }
 
 async function add(req, res) {
-  console.log("in setUserHasPlayed with", res.locals.userId);
+  //   console.log("in setUserHasPlayed with", res.locals.userId);
   const { choices } = req.body.data;
   const data = await service.setUserHasPlayed(res.locals.userId, choices);
   res.status(201).json({

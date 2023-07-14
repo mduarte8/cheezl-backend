@@ -6,18 +6,9 @@ import analyzeRouter from "./analyze/analyze.router.js";
 import generateRouter from "./generate/generate.router.js";
 import choicesRouter from "./choices/choices.router.js";
 
-// console.time("script", "start");
-
 const app = express();
 
-app.use(
-  cors()
-  // cors({
-  //   origin: "*", // <-- allow all origins
-  //   methods: ["GET", "POST", "PUT", "OPTIONS"], // <-- allow these HTTP methods
-  //   allowedHeaders: ["Content-Type", "Authorization"], // <-- allow these headers
-  // })
-);
+app.use(cors());
 app.use(express.json());
 
 app.use("/analyze", analyzeRouter);

@@ -184,22 +184,30 @@
       },
       "blue-pecorino-swiss": {
         "swiss": {
-          "Kill": 31,
-          "Date": 2,
+          "Kill": 33,
+          "Date": 7,
           "Marry": 0,
-          "Total": 33
+          "Total": 40
         },
         "blue": {
-          "Kill": 2,
-          "Date": 31,
-          "Marry": 0,
-          "Total": 33
+          "Kill": 4,
+          "Date": 33,
+          "Marry": 3,
+          "Total": 40
         },
         "pecorino": {
-          "Kill": 0,
+          "Kill": 3,
           "Date": 0,
-          "Marry": 33,
-          "Total": 33
+          "Marry": 37,
+          "Total": 40
+        }
+      },
+      "blue": {
+        "blue": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
         }
       }
     },
@@ -360,19 +368,26 @@
       },
       "blue-pecorino-swiss": {
         "swiss": {
-          "Kill": 94,
-          "Date": 6,
+          "Kill": 83,
+          "Date": 18,
           "Marry": 0
         },
         "blue": {
-          "Kill": 6,
-          "Date": 94,
-          "Marry": 0
+          "Kill": 10,
+          "Date": 83,
+          "Marry": 8
         },
         "pecorino": {
-          "Kill": 0,
+          "Kill": 8,
           "Date": 0,
-          "Marry": 100
+          "Marry": 93
+        }
+      },
+      "blue": {
+        "blue": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
         }
       }
     }
@@ -489,6 +504,38 @@
         "blue": "Kill",
         "swiss": "Date",
         "pecorino": "Marry"
+      }
+    },
+    "43fdc7e4-b6b4-4ae7-bc57-19b7879ec123": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "pecorino": "Kill",
+        "swiss": "Date",
+        "blue": "Marry"
+      }
+    },
+    "6babc70e-2b5d-4a37-bebc-e9a6d3f9f418": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "swiss": "Kill",
+        "blue": "Date",
+        "pecorino": "Marry"
+      }
+    },
+    "c01eb818-a92d-4000-903a-b805dea7e251": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "swiss": "Kill",
+        "blue": "Date",
+        "pecorino": "Marry"
+      }
+    },
+    "8e11bbaf-3f91-4026-ae7d-56e49cbe1ec2": {
+      "last-played": "2023-07-14",
+      "choices": {
+        "pecorino": "Kill",
+        "swiss": "Date",
+        "blue": "Marry"
       }
     }
   }
