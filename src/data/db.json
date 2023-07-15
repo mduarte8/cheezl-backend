@@ -213,21 +213,21 @@
       "blue-camembert-feta": {
         "camembert": {
           "Kill": 1,
-          "Date": 0,
-          "Marry": 0,
-          "Total": 1
-        },
-        "feta": {
-          "Kill": 0,
           "Date": 1,
           "Marry": 0,
-          "Total": 1
+          "Total": 2
+        },
+        "feta": {
+          "Kill": 1,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 2
         },
         "blue": {
           "Kill": 0,
           "Date": 0,
-          "Marry": 1,
-          "Total": 1
+          "Marry": 2,
+          "Total": 2
         }
       }
     },
@@ -412,13 +412,13 @@
       },
       "blue-camembert-feta": {
         "camembert": {
-          "Kill": 100,
-          "Date": 0,
+          "Kill": 50,
+          "Date": 50,
           "Marry": 0
         },
         "feta": {
-          "Kill": 0,
-          "Date": 100,
+          "Kill": 50,
+          "Date": 50,
           "Marry": 0
         },
         "blue": {
@@ -577,6 +577,14 @@
       "choices": {
         "camembert": "Kill",
         "feta": "Date",
+        "blue": "Marry"
+      }
+    },
+    "313e7249-ac7e-4912-a30b-b0cf4556c5ee": {
+      "last-played": "2023-07-15",
+      "choices": {
+        "feta": "Kill",
+        "camembert": "Date",
         "blue": "Marry"
       }
     }
