@@ -209,6 +209,26 @@
           "Marry": 0,
           "Total": 1
         }
+      },
+      "blue-camembert-feta": {
+        "camembert": {
+          "Kill": 1,
+          "Date": 0,
+          "Marry": 0,
+          "Total": 1
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 1,
+          "Marry": 0,
+          "Total": 1
+        },
+        "blue": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 1,
+          "Total": 1
+        }
       }
     },
     "percentages": {
@@ -389,6 +409,23 @@
           "Date": 0,
           "Marry": 0
         }
+      },
+      "blue-camembert-feta": {
+        "camembert": {
+          "Kill": 100,
+          "Date": 0,
+          "Marry": 0
+        },
+        "feta": {
+          "Kill": 0,
+          "Date": 100,
+          "Marry": 0
+        },
+        "blue": {
+          "Kill": 0,
+          "Date": 0,
+          "Marry": 100
+        }
       }
     }
   },
@@ -407,6 +444,11 @@
       "pecorino",
       "swiss",
       "blue"
+    ],
+    "2023-07-15": [
+      "camembert",
+      "blue",
+      "feta"
     ]
   },
   "users": {
@@ -531,10 +573,10 @@
       }
     },
     "8e11bbaf-3f91-4026-ae7d-56e49cbe1ec2": {
-      "last-played": "2023-07-14",
+      "last-played": "2023-07-15",
       "choices": {
-        "pecorino": "Kill",
-        "swiss": "Date",
+        "camembert": "Kill",
+        "feta": "Date",
         "blue": "Marry"
       }
     }
