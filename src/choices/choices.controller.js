@@ -7,7 +7,6 @@ export function getCurrentDateInPacificTime() {
   //   const offsetFromUTC = date.getTimezoneOffset();
   //   console.log("offsetfromUTC is", offsetFromUTC);
   const pacificOffset = 420; // PDT offset
-  // Adjust for Pacific Time
   date.setMinutes(date.getMinutes() - pacificOffset);
   //   console.log("date is now", date);
   return date.toISOString().split("T")[0];
