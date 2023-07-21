@@ -1,5 +1,6 @@
 import db from "../data/dbSetup.js";
 import cheeses from "../data/cheeses.js";
+import { getCurrentDateInPacificTime } from "./choices.controller.js";
 
 function getRandomCheeses() {
   let chosenCheeses = [];
@@ -29,7 +30,8 @@ async function generateDailyCheeses(date) {
 async function checkForUserPlayed(userId) {
   //   console.log("in choices.service checking for userId", userId);
   await db.read();
-  const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  const today = getCurrentDateInPacificTime();
+  // const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
   //   console.log("today is", today);
 
   if (!db.data["users"]) {
@@ -51,7 +53,8 @@ async function checkForUserPlayed(userId) {
 }
 
 async function setUserHasPlayed(userId, choices) {
-  const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  const today = getCurrentDateInPacificTime();
+  // const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
   //   console.log("in setUserHasPlayed SERVICE with", userId);
   //   console.log("type of userId is", typeof userId);
   //   console.log("choices", choices);

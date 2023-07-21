@@ -1,8 +1,21 @@
 import asyncErrorBoundary from "../errors/asyncErrorBoundary.js";
 import service from "./choices.service.js";
 
+export function getCurrentDateInPacificTime() {
+  const date = new Date();
+  //   console.log("date is", date);
+  //   const offsetFromUTC = date.getTimezoneOffset();
+  //   console.log("offsetfromUTC is", offsetFromUTC);
+  const pacificOffset = 420; // PDT offset
+  // Adjust for Pacific Time
+  date.setMinutes(date.getMinutes() - pacificOffset);
+  //   console.log("date is now", date);
+  return date.toISOString().split("T")[0];
+}
+
 async function list(req, res) {
-  const date = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  //   const date = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  const date = getCurrentDateInPacificTime();
   //   console.log("checking cheeses for", date);
   const data = await service.generateDailyCheeses(date);
   res.status(200).json({
@@ -26,7 +39,8 @@ function reqHasUserId(req, res, next) {
 }
 
 async function read(req, res) {
-  const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  //   const today = new Date().toISOString().split("T")[0]; // gets the current date in YYYY-MM-DD
+  const date = getCurrentDateInPacificTime();
   const { hasPlayed, choices } = await service.checkForUserPlayed(
     res.locals.userId
   );
